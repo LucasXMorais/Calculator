@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.board{
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    background-color: rgb(88, 88, 88);
+}
+
+.display {
+    width: 400px;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: rgb(115, 139, 117);
+    padding-top: 5px;
+    text-indent: 5px;
+    font-size: 40px;
+    text-align: start;
+    word-wrap: break-word;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.buttons {
+    width: 400px;
+    height: 325px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: solid black 2px;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers {
+    width: 300px;
+    height: 325px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonNumber {
+    width: 50px;
+    height: 50px;
+    border:0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    background-color: rgb(16, 66, 228);
+    margin: 15px;
+    margin-left: 30px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), 
+    inset -2px -2px 3px rgba(0,0,0,0.6);
+    border-radius: 25px;
+}
+
+.buttonNumber:hover{
+    background-color: rgb(59, 97, 223);
+}
+
+.buttonNumber:active{
+    box-shadow: inset -2px -2px 3px white;
+}
+
+.operations {
+    width: 100px;
+    height: 325px;
+    margin: 0px;
+    background-color: rgba(103, 0, 73, 30%);
+}
+
+.buttonOperations {
+    width: 50px;
+    height: 50px;
+    border:0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 25px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), 
+    inset -2px -2px 3px rgba(0,0,0,0.6);
+    border-radius: 25px;
+}
+
+.buttonOperations:hover{
+    background-color: rgb(238, 32, 32);
+}
+
+.buttonOperations:active{
+    box-shadow: inset -2px -2px 3px white;
+}
